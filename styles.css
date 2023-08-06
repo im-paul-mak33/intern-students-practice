@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  height: 100rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  color: #28183b;
+}
+
+#Logo {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  color: white;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+}
+
+.Logo-Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoName {
+  font-size: larger;
+  color: #e26959;
+  font-weight: bold;
+}
+
+.NavItems-Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.navitems {
+  color: #28183b;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.auth {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.signIn {
+  color: #28183b;
+  background: #fff;
+  border: 2px solid #e26959;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: smaller;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.signIn:hover {
+  background-color: #e26959;
+}
+
+.signUp {
+  color: #28183b;
+  background: #e26959;
+  border: 2px solid #e26959;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: smaller;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.signUp:hover {
+  background-color: #fff;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  color: #28183b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  font-size: 4rem;
+  line-height: 4.2rem;
+  margin-bottom: 1.5rem;
+  color: #28183b;
+  margin-top: 4rem;
+}
+
+.bannerText {
+  font-family: Poppins, sans-serif;
+  color: #000;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  width: 50rem;
+}
+
+.bannerButtons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 1rem;
+  margin-top: 5rem;
+}
+
+.banButtons {
+  background-image: linear-gradient(
+    to right,
+    #e26959 0%,
+    #f59e0b 51%,
+    #e26959 100%
+  ) !important;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 8px;
+  display: block;
+  font-family: Poppins, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  border: none;
+}
+
+.trendProducts {
+  border-bottom: 1px solid #808080;
+}
+
+.trendProducts h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  font-size: 4rem;
+  line-height: 4.2rem;
+  margin-bottom: 1.5rem;
+  color: #28183b;
+  margin-top: 4rem;
+}
+
+.products {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+
+.secondRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.product1,
+.product2,
+.product3,
+.product4 {
+  background-color: #e8e5e5;
+  width: 18rem;
+  border-radius: 8px;
+  padding: 10px;
+  position: relative;
+}
+
+.productImage {
+  width: 18rem;
+  height: 18rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.productName {
+  font-size: 24px;
+  font-family: Poppins, sans-serif;
+  margin-top: 10px;
+  color: #000;
+}
+
+.priceSection {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trayIcon {
+  width: 1rem;
+  height: 1rem;
+}
