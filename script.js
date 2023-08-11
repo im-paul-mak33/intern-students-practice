@@ -26,4 +26,4 @@ if (!greetings8) {
 
 
 // Start
-// tomorrow/12-08-2023 - Control Flow Statements
+// tomorrow/12-08-2023 - Control Flow Statements, Loops, Functions, Scope
