@@ -29,26 +29,33 @@ let userInput = prompt("Should I check the Student's result, Yes or No: ");
 
 if (userInput == "Yes") {
     console.log("Checking Student's Result")
+    alert("Checking Student's Result")
     let studentName = prompt("Put the Name of the Student: ");
     if (studentName) {
         console.log(`Checking ${studentName}'s Result`)
         if (studentName === Student1.name) {
             if (Student1.marks >= 20) {
                 console.log(Pass)
+                alert(Pass)
             } else {
                 console.log(Fail)
+                alert(Fail)
             }
         } else if (studentName === Student2.name) {
             if (Student2.marks >= 20) {
                 console.log(Pass)
+                alert(Pass)
             } else {
                 console.log(Fail)
+                alert(Fail)
             }
         } else if (studentName === Student3.name) {
             if (Student3.marks >= 20) {
                 console.log(Pass)
+                alert(Pass)
             } else {
                 console.log(Fail)
+                alert(Fail)
             }
         }
     }
