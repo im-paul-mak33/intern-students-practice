@@ -19,7 +19,7 @@ const fifthDay = "Friday"
 const sixthDay = "Saturday"
 const seventhDay = "Sunday"
 
-let dayNumber = prompt("Write the number of the day of which you want the detail below 👇🏻")
+let dayNumber = prompt("Write the number of the day of which you want the detail below")
 
 switch (dayNumber) {
     case "1":
