@@ -1,17 +1,14 @@
-let multi = 25
-
-for (multi; multi > 0; multi--) {
-    console.log(multi);
-}
-
 /*
 Problem Statement
 Iterate over a array
 
 const cars = ["BMW", "Volvo", "Saab", "Ford"]
 
-*/ 
+*/
 
 const cars = ["BMW", "Volvo", "Saab", "Ford"]
 
-console.log(cars)
+for (let i = 0, len = cars.length, text = ""; i < len; i++) {
+    allCars = text + cars[i];
+    console.log(allCars)
+}
