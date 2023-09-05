@@ -1,3 +1,30 @@
+// Arrays are ordered collectiond of elements that can hold values of different data types.
+
+const Students = [
+    Student1 = {
+        name: "Anshul",
+        course: "DCE",
+        gpa: 9.8
+    },
+    Student2 = {
+        name: "Ashwin",
+        course: "IT",
+        gpa: 9.9,
+        subject: 4
+    },
+    Student3 = {
+        name: "Mahesh",
+        course: "IT",
+        gpa: 0.1
+    }
+]
+
+for (let i = 0; i < Students.length; i++) {
+    console.log(Students[i])
+}
+
+// Array Methods
+
 const fruits = [];
 fruits.push("banana", "apple", "peach");
 console.log(fruits);
