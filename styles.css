@@ -127,7 +127,7 @@ header {
   margin-top: 4rem;
 }
 
-.bannerText {
+#bannerText {
   font-family: Poppins, sans-serif;
   color: #000;
   font-size: 1.2rem;

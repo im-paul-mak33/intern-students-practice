@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Count Example</title>
+  </head>
+  <body>
+    <h1>Counter</h1>
+    <p id="count">0</p>
+    <button id="up">UP</button>
+    <button id="down">Down</button>
+
+    <script>
+      // Get reference to the HTML Elements
+      const countNumber = document.getElementById('count');
+      const increaseNumber = document.getElementById('up');
+      const decreaseNumber = document.getElementById('down');
+
+      // Initialize the counter variable
+      let number = 0;
+      console.log(number);
+
+      // Function to update the count and display it in the webpage
+      function updateNumber() {
+        countNumber.textContent = number;
+      }
+      console.log(number);
+
+      // Event listener for the increase number
+      increaseNumber.addEventListener('click', function () {
+        number++;
+        console.log(number);
+        updateNumber();
+      });
+      console.log(number);
+
+      // Event listener for the decrease number
+      decreaseNumber.addEventListener('click', function () {
+        if (number == 0) {
+          number = 0;
+        } else {
+          number--;
+          console.log(number);
+          updateNumber();
+        }
+      });
+      console.log(number);
+
+      // Initial Display of the Count
+      updateNumber();
+    </script>
+  </body>
+</html>
